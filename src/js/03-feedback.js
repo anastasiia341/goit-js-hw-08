@@ -19,7 +19,7 @@ function onFormSubmit(e) {
   e.preventDefault();
   const { email, message } = e.currentTarget.elements;
   e.currentTarget.reset();
-  localStorage.removeItem(LOCAL_KEY);
+  localStorage.removeItem(STORAGE_KEY);
   formData = {};
 }
 
